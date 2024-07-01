@@ -1,0 +1,22 @@
+#include <stdio.h>
+main()
+{
+	int s, i, data[] = { 10,5,30,77,16,3,47,29,37,33 };
+
+	printf("íTçıílÇÕ?");
+	scanf("%d",&s);
+
+	for (i = 0; i < 10; i++)
+	{
+		if (s == data[i]) break;
+	}
+
+	if (i >= 10)
+	{
+		printf("å©Ç¬Ç©ÇÁÇ»Ç©Ç¡ÇΩ\n");
+	}
+	else
+	{
+		printf("d[%d]Ç…Ç†Ç¡ÇΩ\n",i);
+	}
+}
